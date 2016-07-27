@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Scheduling Form</title>
+	<style type="text/css">
+	@import url(http://cdn.tectite.com/formdesigneruser-v9.css);
+	</style>
+	<script type="text/javascript">window.jQuery || document.write('\x3Cscript src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"\x3E\x3C/script\x3E')</script><script type="text/javascript">window.jQuery || document.write('\x3Cscript src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"\x3E\x3C/script\x3E')</script><script type="text/javascript">window.jQuery || document.write('\x3Cscript src="http://cdn.tectite.com/jquery-1.7.2.min.js"\x3E\x3C/script\x3E')</script>
+	<script type="text/javascript">var tectite_form_environ = {img_url:"http://cdn.tectite.com/images/"};</script>
+	<script type="text/javascript" src="http://cdn.tectite.com/formval-v12.js"></script>
+</head>
+<body>
+	<div class="TectiteForm">
+		<form id="Scheduling_Form" name="Scheduling_Form" method="post" enctype="multipart/form-data" action="http://www.dmsiok.com/online_schedule.php">
+			<h1 class="TectiteFormDesignerHeading" id="heading1">Dynamic Medical Solutions - Scheduling Request</h1>
+			<h3 class="TectiteFormDesignerHeading" id="heading2">Therapist Contact Information</h3>
+			<div class="TectiteFormDesignerField">
+				<label for="field3" class="TectiteRequiredField">Please Enter your full name.</label><input type="text" id="field3" name="slp_name"  />
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field4" class="TectiteRequiredField">Your email address</label><input type="text" id="field4" name="slp_email_address"  />
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field24" class="TectiteRequiredField">Please enter a telephone number for us to contact you.</label><input type="text" id="field24" name="slp_telephone"  />
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field27_1">Do you prefer we Telephone, Text, or email your schedule date and time?</label><div class="TectiteFormFieldRadioOptions"><p>
+				<input type="radio" id="field27_1" name="slp_method_of_contact" value="Phone call"  /><label for="field27_1">Phone call</label></p>
+				<p>
+					<input type="radio" id="field27_2" name="slp_method_of_contact" value="Text. Cell # provided."  /><label for="field27_2">Text. Cell # provided.</label></p>
+					<p>
+						<input type="radio" id="field27_3" name="slp_method_of_contact" value="Email"  /><label for="field27_3">Email</label></p>
+					</div>
+				</div>
+				<h3 class="TectiteFormDesignerHeading" id="heading4">PATIENT INFORMATION</h3>
+				<div class="TectiteFormDesignerField">
+					<label for="field6">Please enter your patient's first name.</label><input type="text" id="field6" name="patient_first_name"  />
+				</div>
+				<div class="TectiteFormDesignerField">
+					<label for="field5">Your patient's last name.</label><input type="text" id="field5" name="pt_last_name"  />
+				</div>
+				<div class="TectiteFormDesignerField">
+					<label for="field10">Male or Female</label><select id="field10" name="pt_gender">
+					<option value=""></option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field2">Please enter your patient's Date of Birth.</label><input type="text" id="field2" name="pt_date_of_birth"  />
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field7">Please enter the name of the Facility or Location of patient.</label><input type="text" id="field7" name="facility"  />
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field11">Physician's Name</label><input type="text" id="field11" name="physician"  />
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field12">Patient's existing diagnoses.</label><textarea id="field12" name="pt_existing_dx" rows="4" cols="20"></textarea>
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field13">Patient's cognitive status.</label><select id="field13" name="pt_cognitive_status">
+				<option value=""></option>
+				<option value="Good">Good</option>
+				<option value="Fair">Fair</option>
+				<option value="Poor">Poor</option>
+			</select>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field14_1">Would patient be able to perform compensatory techniques (i.e. chin tuck, etc.)?</label><div class="TectiteFormFieldRadioOptions"><p>
+			<input type="radio" id="field14_1" name="pt_ability_for_compensatory_tech" value="Yes"  /><label for="field14_1">Yes</label></p>
+			<p>
+				<input type="radio" id="field14_2" name="pt_ability_for_compensatory_tech" value="No"  /><label for="field14_2">No</label></p>
+			</div>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field15">What is the patient's current diet level?</label><textarea id="field15" name="pt_current_diet" rows="4" cols="20"></textarea>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field16_1">Would you like to assess for potential upgrade of diet?</label><div class="TectiteFormFieldRadioOptions"><p>
+			<input type="radio" id="field16_1" name="assess_for_diet_upgrade" value="Yes"  /><label for="field16_1">Yes</label></p>
+			<p>
+				<input type="radio" id="field16_2" name="assess_for_diet_upgrade" value="No"  /><label for="field16_2">No</label></p>
+			</div>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field17_1">How does the patient take medications?</label><div class="TectiteFormFieldRadioOptions"><p>
+			<input type="radio" id="field17_1" name="pt_method_of_medications" value="Whole"  /><label for="field17_1">Whole</label></p>
+			<p>
+				<input type="radio" id="field17_2" name="pt_method_of_medications" value="Crushed"  /><label for="field17_2">Crushed</label></p>
+				<p>
+					<input type="radio" id="field17_3" name="pt_method_of_medications" value="PEG"  /><label for="field17_3">PEG</label></p>
+				</div>
+			</div>
+			<div class="TectiteFormDesignerField">
+				<label for="field18">Is patient self feeder?</label><select id="field18" name="pt_self_feeder">
+				<option value=""></option>
+				<option value="Yes">Yes</option>
+				<option value="No.  Fed by staff.">No.  Fed by staff.</option>
+				<option value="No.  Other.">No.  Other.</option>
+			</select>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field19">If patient is not self fed, or fed by staff, please explain.</label><input type="text" id="field19" name="self_feeder_other_defined"  />
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field20_1">Does the patient have a history of weight loss?</label><div class="TectiteFormFieldRadioOptions"><p>
+			<input type="radio" id="field20_1" name="pt_hx_weight_loss" value="Yes"  /><label for="field20_1">Yes</label></p>
+			<p>
+				<input type="radio" id="field20_2" name="pt_hx_weight_loss" value="No"  /><label for="field20_2">No</label></p>
+			</div>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field21_1">Does the patient have a history of asperation pneumonia?</label><div class="TectiteFormFieldRadioOptions"><p>
+			<input type="radio" id="field21_1" name="pt_hx_aspir_pneu" value="Yes"  /><label for="field21_1">Yes</label></p>
+			<p>
+				<input type="radio" id="field21_2" name="pt_hx_aspir_pneu" value="No"  /><label for="field21_2">No</label></p>
+			</div>
+		</div>
+		<div class="TectiteFormDesignerField">
+			<label for="field22">Reason for Dysphagia Evaluation referred/finding of bedside swallow evaluation?</label><textarea id="field22" name="reason_for_eval" rows="4" cols="20"></textarea>
+		</div>
+		<h3 class="TectiteFormDesignerHeading" id="heading3">PATIENT INSURANCE INFORMATION</h3>
+		<div class="TectiteFormDesignerField">
+			<label for="field30">Payer Source (i.e. Skilled, LTC, etc)</label><select id="field30" name="pt_payor_src">
+			<option value=""></option>
+			<option value="Part A/Skilled">Part A/Skilled</option>
+			<option value="Part B/Long Term Care">Part B/Long Term Care</option>
+			<option value="Other">Other</option>
+		</select>
+	</div>
+	<div class="TectiteFormDesignerField">
+		<label for="field31">If you entered Other as a Payor Source, please explain here.</label><input type="text" id="field31" name="payor_src_other"  />
+	</div>
+	<div class="TectiteFormDesignerField">
+		<label for="field23">What is the patient's primary insurance type?</label><select id="field23" name="pt_insurance_type">
+		<option value=""></option>
+		<option value="Medicare">Medicare</option>
+		<option value="Medicaid">Medicaid</option>
+		<option value="Commercial Insurance">Commercial Insurance</option>
+		<option value="Self/Private Pay">Self/Private Pay</option>
+		<option value="No insurance">No insurance</option>
+	</select>
+</div>
+<div class="TectiteFormDesignerField">
+	<label for="field26">If patient is not covered by Medicare or Medicaid, please enter the Insurer's name.</label><input type="text" id="field26" name="commercial_ins"  />
+</div>
+<div class="TectiteFormDesignerField">
+	<label for="field25">Please enter the patient's insurance number.</label><input type="text" id="field25" name="pt_insurance_number"  />
+</div>
+<h3 class="TectiteFormDesignerHeading" id="heading5">PAPERWORK TO BE PROVIDED AT TIME OF STUDY</h3>
+<p id="para1">As part of almost any medical procedure, a Patient Authorization form must be completed.  Please go to, www.dmsiok.com/forms, and complete the Patient Authorization Form.  This form will need to be completed and provided at the time of study.
+
+	Also located on the DMS Forms page, is a Physician's Order Form for your use.  The Physician's Order Form makes the ordering process simple, and contains the required details for ordering a study.</p>
+	<h5 class="TectiteFormDesignerHeading" id="heading6">IMPORTANT:  All Physician's Orders MUST be signed by physician BEFORE STUDY IS SCHEDULED.</h5>
+	<div class="TectiteFormDesignerField TectiteButtonField">
+		<input type="reset" id="field29" value="Reset" name="field29"/>
+	</div>
+	<div class="TectiteFormDesignerField TectiteButtonField">
+		<input type="submit" id="field28" value="Submit" name="field28" />
+	</div>
+	<div class="TectiteFormDesignerField TectiteButtonField">
+		<input type="button" value="Print this page" onClick="window.print()">
+	</div>
+	<div class="TectiteFormDesignerField TectiteButtonField">
+		<input type="button" value="Return to Home Page" onClick="window.location.href='home.html'">
+	</div>
+<!-- NOTE: do not remove the following links if you are using our Hosted Forms on a Free Plan.
+     Removing the links will cause your form to be disabled! You can upgrade to a paid plan
+     and then safely remove the links.
+     If you are using your own copy of FormMail, you can remove the links without an issue,
+     though we would appreciate it if you left them here.
+ -->
+ <a id="PoweredByLink" class="PoweredByFormMail" href="http://www.tectite.com/" target="_blank"><img id="PoweredByImg" src="http://www.tectite.com/images/FormMail_rnd_blue.png" alt="Badge for Tectite supplied contact form" title="Use Tectite FormMail for your feedback form" border="0" /></a>
+ <input type="hidden" name="required" value="slp_name:Please Enter your full name.,slp_email_address:Your email address,slp_telephone:Please enter a telephone number for us to contact you." />
+ <input type="hidden" name="derive_fields" value="realname = ,email = " />
+ <input type="hidden" name="subject" value="Scheduling Request Form" />
+ <input type="hidden" name="good_url" value="thank_you.html" />
+ <input type="hidden" name="recipients" value="atheodoridis01@cs.com" />
+</form>
+</div>
+<!-- NOTE: do not remove the following links if you are using our Hosted Forms on a Free Plan.
+     Removing the links will cause your form to be disabled! You can upgrade to a paid plan
+     and then safely remove the links.
+     If you are using your own copy of FormMail, you can remove the links without an issue,
+     though we would appreciate it if you left them here.
+ -->
+ <div id="TectiteLink" style="clear:both;width:80%;margin:5px auto;text-align:center;">Visit Tectite for free <a href="http://www.tectite.com/">php form</a> solutions.<script type="text/javascript">
+ if (document.getElementById("PoweredByLink"))
+ 	document.getElementById("TectiteLink").setAttribute("style","display:none;");
+</script></div>
+<script type="text/javascript" src="http://cdn.tectite.com/formtest-v2.js"></script>
+</body>
+</html>
+<!--
+You can modify this form in the future by
+using the Form Designer at http://www.tectite.com/
+
+*** Tectite Form Designer Start ***
+5:C:919055ba6900183d0e66ab07f51123e8:eJzlW91z4jgSn+et2v9BxT3c7VaWxDbkgzxcMYH
+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:33
+80
+*** Tectite Form Designer End ***
+-->
